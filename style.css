@@ -673,16 +673,25 @@ section+section {
 
 @media (max-width: 768px) {
   .exp-highlight {
-    grid-template-columns: 14px 1fr;
-    gap: 8px;
+    display: block;
+    position: relative;
+    padding-left: 22px;
+  }
+
+  .exp-hl-dot {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    margin-top: 0;
   }
 
   .exp-hl-label {
-    grid-column: 2;
+    display: inline;
+    margin-right: 4px;
   }
 
   .exp-hl-text {
-    grid-column: 2;
+    display: inline;
   }
 }
 
