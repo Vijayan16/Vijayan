@@ -587,7 +587,6 @@ section+section {
   padding: 48px 0;
   border-bottom: 1px solid var(--border);
   opacity: 0;
-  transform: translateX(-24px);
 }
 
 .exp-item:last-child {
@@ -673,27 +672,27 @@ section+section {
 
 @media (max-width: 768px) {
   section {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .exp-highlight {
     display: block;
     position: relative;
-    padding-left: 28px;
-    margin-bottom: 2px;
+    padding-left: 32px;
+    margin-bottom: 4px;
   }
 
   .exp-hl-dot {
     position: absolute;
-    left: 2px;
-    top: 9px;
+    left: 4px;
+    top: 10px;
     margin-top: 0;
   }
 
   .exp-hl-label {
     display: inline;
-    margin-right: 4px;
+    margin-right: 6px;
   }
 
   .exp-hl-text {
